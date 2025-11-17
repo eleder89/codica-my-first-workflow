@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: say-hello:
+    - name: say-hello
       run: ./@echo "Hello, World!"
 
     - name: Install dependencies
